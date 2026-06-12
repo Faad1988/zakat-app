@@ -94,7 +94,11 @@ display: none;
   border-radius: 0 25px 0 0;
 }
 
-
+.fond-script{
+    padding: 1px;
+    background: rgba(255, 255, 255, 0.658);
+    border-radius: 5PX;
+}
 
 #riz {
     
@@ -171,11 +175,11 @@ display: none;
 }
 
 .food-item{
-color: rgb(153, 10, 143);
+color: rgb(31, 1, 29);
     -webkit-text-stroke: 0.9px rgb(44, 2, 44);
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px yellow;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     min-height: 50px;
     letter-spacing: 8PX;
 }

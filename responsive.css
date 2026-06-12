@@ -31,15 +31,14 @@ td, th {
 }
 
 
-  .food-item { font-size: 10px; }
   .table input { width: 80px; }
 
   .food-item{
-color: rgb(153, 10, 143);
+color: rgb(31, 1, 29);
     -webkit-text-stroke: 0.9px rgb(44, 2, 44);
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px yellow;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 6px;
     min-height: 50px;
     letter-spacing: 3px;
 }
