@@ -1,6 +1,27 @@
 @media (max-width:450px) {
-  .table { 
-    width: 60%; }
+
+
+    table {
+  table-layout: fixed;
+  width: 100%;
+}
+td, th {
+  width: 60px;       /* largeur forcée */
+  height: 25px;      /* hauteur forcée */
+  padding: 2px;      /* réduit l’espace interne */
+  font-size: 12px;   /* texte plus petit */
+  overflow: hidden;  /* cache si le texte dépasse */
+}
+
+.table input {
+  background: rgba(255,255,255,0.9);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 100px;
+  font-size: 8px;
+}
+
   .ligne1 th{ font-size: 10px;
                padding: 0;
 }
@@ -9,7 +30,7 @@
   margin: 1px 15px;
 }
 
-  th, td { font-size: 12px; }
+
   .food-item { font-size: 10px; }
   .table input { width: 80px; }
 
@@ -18,7 +39,7 @@ color: rgb(153, 10, 143);
     -webkit-text-stroke: 0.9px rgb(44, 2, 44);
     text-shadow: 0 0 2px black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 10px;
     min-height: 50px;
     letter-spacing: 3px;
 }
