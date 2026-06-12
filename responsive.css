@@ -1,5 +1,6 @@
 @media (max-width:450px) {
-  .table { width: 80%; }
+  .table { 
+    width: 60%; }
   .ligne1 th{ font-size: 10px;
                padding: 0;
 }
@@ -14,12 +15,12 @@
 
   .food-item{
 color: rgb(153, 10, 143);
-    -webkit-text-stroke: 0.9px yellow;
+    -webkit-text-stroke: 0.9px rgb(44, 2, 44);
     text-shadow: 0 0 2px black;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     min-height: 50px;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
 }
 }
 
