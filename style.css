@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url(./asset/fond_decran.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    overflow:auto ;
+}
+
+#btn1, #btn2{
+    display: flex;
+}
+.al-fitr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.al-fitr button, .al-maal button{
+font-weight: bold;
+background-color: rgb(96, 12, 170);
+font-size: 16px;
+width: 50px;
+margin-bottom: 2px;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease-in;
+}
+.al-fitr button:hover, .al-maal button:hover{
+background-color: rgb(27, 3, 49);
+color: white;
+font-weight: bold;
+}
+
+
+.table, .table * { font-family: 'Tajawal', sans-serif; }
+
+h1{
+    color:rgb(179, 14, 168);
+    -webkit-text-stroke: 0.4px yellow; 
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-family: 'Tajawal', sans-serif;
+}
+
+th, td{
+    
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.table{
+    width: 50%;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.8);
+    margin-bottom: 1em;
+    color: rgb(33, 2, 63);
+    font-weight: bolder;
+}
+
+.active{
+display: none;
+}
+
+.ligne1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500PX;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 0.6rem; 
+    padding: 1rem;
+}
+
+.ligne1 th:first-child{
+  border-radius: 25px 0 0 0;
+}
+
+.ligne1 th p{
+  color: rgb(56, 2, 52);
+  margin: 1px 2rem;
+}
+
+
+.ligne1 th:last-child{
+  border-radius: 0 25px 0 0;
+}
+
+
+
+#riz {
+    
+    background-image: url(./asset/riz.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#patte {
+    background-image: url(./asset/formes-pates.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#datte {
+    background-image: url(./asset/Datte-medjool-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#lentille {
+    background-image: url(./asset/lentille.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#pois-chiche {
+    background-image: url(./asset/pois-chiches-produits-AdobeStock_438898215.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#pois-cassés {
+    background-image: url(./asset/pois-casses.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#haricots-secs {
+    background-image: url(./asset/haricots-secs-447682.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#farine {
+    background-image: url(./asset/Farine.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#raisins-secs {
+    background-image: url(./asset/Raisin-secs.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#couscous {
+    background-image: url(./asset/couscous.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#Couscous-gros-grains {
+    background-image: url(./asset/couscous-grain-wooden-bowl_154293-1655.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+#semoule {
+    border-radius: 0 0 0 25px;
+    background-image: url(./asset/semoule.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.food-item{
+color: rgb(153, 10, 143);
+    -webkit-text-stroke: 0.9px yellow;
+    text-shadow: 0 0 2px black;
+    font-weight: bold;
+    font-size: 2rem;
+    min-height: 50px;
+}
+
+.table input {
+  background: rgba(255,255,255,0.9);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 120px;
+}
+
+input{
+    color:rgb(59, 4, 56);
+    font-weight: bold;
+    font-size: 16px;
+}
+footer{
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+    background: rgb(10, 0, 10);
+    color: white;
+}
+
+.rest{
+    display: block;
+    height: 70vh;
+}
+
+
+

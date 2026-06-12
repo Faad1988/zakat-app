@@ -1,0 +1,45 @@
+@media (max-width:450px) {
+  .table { width: 80%; }
+  .ligne1 th{ font-size: 10px;
+               padding: 0;
+}
+.ligne1 th p{
+  color: rgb(56, 2, 52);
+  margin: 1px 15px;
+}
+
+  th, td { font-size: 12px; }
+  .food-item { font-size: 10px; }
+  .table input { width: 80px; }
+
+  .food-item{
+color: rgb(153, 10, 143);
+    -webkit-text-stroke: 0.9px yellow;
+    text-shadow: 0 0 2px black;
+    font-weight: bold;
+    font-size: 2rem;
+    min-height: 50px;
+    letter-spacing: 10px;
+}
+}
+
+@media (min-width: 451px) and (max-width:767px) {
+    h1{
+        margin-bottom: 0px;
+    }
+  .table { width: 80%; }
+
+
+  .ligne1 th{ font-size: 16px;
+               padding: 0;
+}
+.ligne1 th p{
+  color: rgb(56, 2, 52);
+  margin: 1px 15px;
+}
+
+  th, td { font-size: 12px; }
+  .food-item { font-size: 10px; }
+  .table input { width: 80px; }
+}
+

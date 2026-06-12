@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Zakat al fitr</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+</style>
+</head>
+<body>
+   <main>
+    <h1>Zakapp</h1>
+    <section class="al-fitr">
+        <div id="btn1">
+ <button class="btn-reduct">-</button>
+ <p>Zakat-al-fitr</p>
+        </div>
+        <table class="table">
+        <thead> 
+            <tr class="ligne1">
+                <th><p>Nourriture</p></th>
+                <th><p>Quantité requise par personne (g)</p></th>
+                <th><p>Quantité émise</p></th>
+                <th class="kg"><p>En kilo</p></th>
+                <th><p>Nombre de personnes</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="suite">
+                <td class="food-item" id="riz" aria-label="Riz">Riz</td>
+                <td class="QuantitéRequise">2300</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="patte" aria-label="Pattes">Pattes</td>
+                <td class="QuantitéRequise">2040</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="datte" aria-label="Dattes">Dattes</td>
+                <td class="QuantitéRequise">1800</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="lentille" aria-label="Lentilles">Lentille</td>
+                <td class="QuantitéRequise">2100</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="pois-chiche" aria-label="Pois-chiche">Pois chiche</td>
+                <td class="QuantitéRequise">2000</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="pois-cassés" aria-label="Pois-casse">Pois cassés</td>
+                <td class="QuantitéRequise">2240</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="haricots-secs" aria-label="haricots-secs">Haricots secs</td>
+                <td class="QuantitéRequise">2060</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="farine" aria-label="Farines">Farine</td>
+                <td class="QuantitéRequise">1400</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="raisins-secs" aria-label="raisins-secs">Raisins secs</td>
+                <td class="QuantitéRequise">1640</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="couscous" aria-label="couscous">Couscous</td>
+                <td class="QuantitéRequise">1800</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="Couscous-gros-grains" aria-label="Couscous-gros-grains">Couscous gros grains</td>
+                <td class="QuantitéRequise">2000</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+            <tr class="suite">
+                <td class="food-item" id="semoule" aria-label="semoule">Semoule</td>
+                <td class="QuantitéRequise">2000</td>
+                <td><input type="number" placeholder="quantité en gramme" class="QuantiteEmise" aria-label="Quantité en grammes" min="0"></td>
+                <td class="kg"></td>
+                <td class="resultat"></td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    <section class="al-maal">
+        <div id="btn2">
+ <button class="btn-reduct">-</button>
+ <p>Zakat-al-maal</p>
+    </section>
+    <section class="rest">
+    </section>
+   </main> 
+   <footer>
+    <p>copy-right -2026</p>
+   </footer>
+   <script src="./script.js"></script>
+</body>
+</html>
